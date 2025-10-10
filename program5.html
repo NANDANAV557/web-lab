@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>registration form</title>
+</head>
+<body>
+<h1><center>Registration Form</center></h1>
+<form action="/submit-form">
+<fieldset>
+<legend>user information:</legend>
+<label for="name">name:</label>
+<select id="title"name="title"></label>
+<option value="Mr." selected>Mr</option>
+<option value="Mrs">Mrs</option>
+<option value="Ms">Ms</option>
+</select>
+
+<input type="text" id="name" name="name"required><br><br>
+<label for="phone">phone:</label>
+
+<input type="tel" id="phone" name="phone"required>
+<label for="email">email:</label>
+<input type="email" id="email" name="email"required><br><br>
+</fieldset><br>
+
+<label for="address">address:</label>
+<textarea id="address" id="address" name="address" required></textarea><br><br>
+
+<label>gender</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">female</label><br><br>
+
+<label>language known</label>
+<input type="radio" id="english" name="language" value="english">
+<label for="english">english</label>
+<input type="radio" id="malayalam" name="language" value="malayalam">
+<label for="malayalam">malayalam</label>
+<input type="radio" id="hindi" name="language" value="hindi">
+<label for="hindi">hindi</label><br><br>
+
+<label for="course"place holder="course">course</label>
+<select id="course" name="course">
+<option value="MCA" selected>MCA</option>
+<option value="MBA" selected>MBA</option>
+<option value="BBA" selected>BBA</option>
+</select>
+<center>
+<button type="reset">reset</button>
+<button type="submit">submit</button>
+</center>
+</form>
+</body>
