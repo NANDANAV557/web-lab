@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>JavaScript String and Math Functions</title>
+</head>
+<body>
+<h1>javascript string and math function</h1>
+<h2>string objects</h2>
+<script>
+let str="Nandana";
+document.writeln("string is: "+ str + "<br>");
+document.writeln("Length of the word: " + str.length + "<br>");
+document.writeln("In LowerCase: " + str.toLowerCase() + "<br>");
+document.writeln("In UpperCase: " + str.toUpperCase() + "<br>");
+document.writeln("Replaced string: " + str.replace("Nandana", "Ammu") + "<br>");
+let joinedstr = str + "VS";
+document.writeln("joined string: " + joinedstr + "<br>");
+</script>
+
+<h1>Math Properties</h1>
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = 
+"<p><b>Math.E:</b> " + Math.E + "</p>" +
+"<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+"<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+"<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+"<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+"<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+"<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+"<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";
+</script>
+
+<h1>Math Object</h1>
+<script>
+let num = 25.6789;
+document.writeln("Orginal number: " + num + "<br>");
+document.writeln("Rounded: "+ Math.round(num) + "<br>");
+document.writeln("Floor: "+ Math.floor(num) + "<br>");
+document.writeln("Square root of 16 "+ Math.sqrt(16) + "<br>");
+document.writeln("Power(2^4): "+ Math.pow(2,4) + "<br>");
+document.writeln("Max of (10,20,5): "+ Math.max(10,20,5) + "<br>");
+document.writeln("Min of (10,20,5): "+ Math.min(10,20,5) + "<br>");
+document.writeln("Maximum value among (10,20,5): "+ Math.max(10,20,5) + "<br>");
+document.writeln("Minimum value among (10,20,5): "+ Math.min(10,20,5) + "<br>");
+</script>
+</body>
+</html>
+
